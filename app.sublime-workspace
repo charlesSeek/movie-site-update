@@ -1,0 +1,392 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"EventEmitter"
+			],
+			[
+				"block",
+				"inline-block"
+			],
+			[
+				"get",
+				"getLinearRegressionWeight"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/shuchengcui/Documents/movie-site/views/layout.jade",
+		"/Users/shuchengcui/Downloads/topmenu.jade",
+		"/Users/shuchengcui/Documents/movie-site/public/js/admin.js",
+		"/Users/shuchengcui/Documents/movie-site/app.js",
+		"/Users/shuchengcui/Documents/movie-site/views/pages/list.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/includes/head.jade",
+		"/Users/shuchengcui/Documents/movie-site/js/admin.js",
+		"/Users/shuchengcui/Documents/movie-site/.bowerrc",
+		"/Users/shuchengcui/Documents/movie-site/views/pages/admin.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/pages/index.jade",
+		"/Users/shuchengcui/Documents/movie-site/schemas/movie.js",
+		"/Users/shuchengcui/Documents/movie-site/models/movie.js",
+		"/Users/shuchengcui/Documents/movie-site/app_bak.js",
+		"/Users/shuchengcui/Documents/movie-site/views/pages/detail.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/includes/header.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/admin.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/detail.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/list.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/index.jade",
+		"/Users/shuchengcui/Documents/movie-site/views/index.html",
+		"/Users/shuchengcui/Documents/imooc-jade/index.jade",
+		"/Users/shuchengcui/Documents/imooc-jade/index.html",
+		"/Users/shuchengcui/Documents/myMovieSite/views/pages/detail.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/pages/admin.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/schemas/movie.js",
+		"/Users/shuchengcui/Documents/myMovieSite/app.js",
+		"/Users/shuchengcui/Documents/myMovieSite/models/movie.js",
+		"/Users/shuchengcui/Documents/myMovieSite/views/pages/list.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/pages/index.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/includes/header.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/includes/head.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/layout.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/head.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/layout.js",
+		"/Users/shuchengcui/Documents/myMovieSite/views/admin.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/detail.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/list.jade",
+		"/Users/shuchengcui/Documents/myMovieSite/views/index.jade",
+		"/Users/shuchengcui/Documents/nodejs/http/callback.js",
+		"/Users/shuchengcui/Documents/nodejs/http/query.js",
+		"/Users/shuchengcui/Documents/nodejs/http/query2.js",
+		"/Users/shuchengcui/Documents/nodejs/http/event.js",
+		"/Users/shuchengcui/Documents/nodejs/http/crawler.js",
+		"/Users/shuchengcui/Documents/nodejs/http/crawler2.js",
+		"/Users/shuchengcui/Documents/nodejs/http/asyn.js",
+		"/Users/shuchengcui/Documents/nodejs/school/student.js",
+		"/Users/shuchengcui/Documents/nodejs/school/myclass.js",
+		"/Users/shuchengcui/Documents/nodejs/school/teacher.js",
+		"/Users/shuchengcui/Documents/nodejs/school/index.js",
+		"/Users/shuchengcui/Documents/nodejs/school/class.js",
+		"/Users/shuchengcui/Downloads/TwitterAnlysis-master/public/metioned_people_byname.html",
+		"/Users/shuchengcui/Documents/nodejs/example.js",
+		"/Users/shuchengcui/ws/index.html",
+		"/Users/shuchengcui/Documents/html/stylesheets/jquery.sidr.dark.css",
+		"/Users/shuchengcui/Documents/html/component.json",
+		"/Users/shuchengcui/Desktop/secene",
+		"/Users/shuchengcui/Documents/workspace/TwitterHarvester/pom.xml",
+		"/Users/shuchengcui/Downloads/jQuery权威指南-源代码/jQuery权威指南-源代码/Ch11/Chats/ChatMain.html",
+		"/Users/shuchengcui/Downloads/jQuery权威指南-源代码/jQuery权威指南-源代码/Ch11/Chats/Login.html",
+		"/Users/shuchengcui/Desktop/1.html",
+		"/Users/shuchengcui/Downloads/╠ЮЁллТу╫(╡н©╪╢ЗбК).html",
+		"/Users/shuchengcui/Downloads/messenger-cdd7486aef1382bfd1f7bf1c7e644431b337ce08 2/src/main/java/org/koushik/javabrains/messenger/service/CommentService.java",
+		"/Users/shuchengcui/Downloads/messenger-cdd7486aef1382bfd1f7bf1c7e644431b337ce08 2/src/main/java/org/koushik/javabrains/messenger/service/ProfileService.java",
+		"/Users/shuchengcui/Downloads/messenger-cdd7486aef1382bfd1f7bf1c7e644431b337ce08 2/src/main/java/org/koushik/javabrains/messenger/service/MessageService.java",
+		"/Users/shuchengcui/Downloads/messenger-cdd7486aef1382bfd1f7bf1c7e644431b337ce08 2/src/main/java/org/koushik/javabrains/messenger/model/Message.java",
+		"/Users/shuchengcui/Downloads/messenger-cdd7486aef1382bfd1f7bf1c7e644431b337ce08 2/src/main/java/org/koushik/javabrains/messenger/model/Comment.java",
+		"/Users/shuchengcui/Downloads/messenger-cdd7486aef1382bfd1f7bf1c7e644431b337ce08 2/src/main/java/org/koushik/javabrains/messenger/database/DatabaseClass.java",
+		"/Users/shuchengcui/Downloads/messenger-cdd7486aef1382bfd1f7bf1c7e644431b337ce08 2/src/main/java/org/koushik/javabrains/messenger/resources/CommentResource.java",
+		"/Users/shuchengcui/Documents/workspace/messenger/pom.xml",
+		"/Users/shuchengcui/Documents/workspace/test/pom.xml",
+		"/Users/shuchengcui/Downloads/apache-maven-3.3.3/conf/settings.xml",
+		"/Users/shuchengcui/Downloads/ch12/PlayerMaster.java",
+		"/Users/shuchengcui/Downloads/04001codes/ClassViewer.java",
+		"/Users/shuchengcui/Downloads/texteditors/TextEditorApp2.java",
+		"/Users/shuchengcui/Downloads/texteditors/TextEditorApp2_utf8.java",
+		"/Users/shuchengcui/Downloads/BlockMoveGame.java",
+		"/Users/shuchengcui/Documents/workspace/weka-api/house.arff",
+		"/Users/shuchengcui/Documents/workspace/weka-api/house.csv",
+		"/Users/shuchengcui/Documents/workspace/weka-api/src/Copy_2_of_ClassificationPrediction.java",
+		"/Users/shuchengcui/Documents/workspace/weka-api/src/CrossValidate.java",
+		"/Users/shuchengcui/Documents/iris-unknownnew.arff",
+		"/Users/shuchengcui/Documents/workspace/weka-api/iris-new.arff",
+		"/Users/shuchengcui/Documents/workspace/weka-api/iris-test.arff",
+		"/Users/shuchengcui/Documents/workspace/weka-api/iris-unknown.arff",
+		"/Users/shuchengcui/Documents/workspace/weka-api/iris-train.arff",
+		"/Users/shuchengcui/Documents/workspace/weka-api/result",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/vote.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/ReutersCorn-train.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/ReutersGrain-test.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/supermarket.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/labor.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/iris.2D.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/contact-lenses.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/diabetes.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/credit-g.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/weather.numeric.arff",
+		"/Volumes/weka-3-6-12/weka-3-6-12/data/soybean.arff",
+		"/Users/shuchengcui/Documents/workspace/weka-api/weather.arff",
+		"/Users/shuchengcui/Documents/workspace/NaiveBayesClassifier/train.arff",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/SVM/test.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/SVM/train.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/SVM/DataFormatTransfer.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Validation/py/CrossValidation2.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/SVM/LinearSoftMarginSVM/train.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/SVM/LinearSoftMarginSVM/test.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/QuadraticProgramming/qp.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/QuadraticProgramming/train2.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/SVM/readme.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/QuadraticProgramming/readme.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/QuadraticProgramming/test.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Validation/py/validation2.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Validation/py/Validation.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Validation/py/test.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Validation/py/CrossValidation.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Regularization/py/RidgeRegressionCoef.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Validation/readme.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Validation/py/Validate.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Regularization/py/RidgeRegression.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/LogisticRegression/py/LogisticRegression.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/Regularization/readme.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/LogisticRegression/readme.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/LogisticRegression/py/StochasticDescent.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/LogisticRegression/py/test.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/PLA/py/PLAPocket.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/LinearRegression/py/LRFeatureTransform.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/LinearRegression/readme.txt",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/DecisionStump/py/DecisionStump.py",
+		"/Users/shuchengcui/Documents/computer science/MachineLearning/DecisionStump/readme.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"moment",
+			"fab",
+			"fubulous",
+			"sidr-left",
+			"left",
+			"left-menu",
+			".sidr a",
+			"body",
+			"#sidr",
+			"sidr",
+			"div",
+			"class",
+			"CommentService",
+			"mirror",
+			"	",
+			" ",
+			"hashtag",
+			"|",
+			"weblink",
+			"username",
+			"weblink",
+			"hashtag",
+			"username",
+			"\"text\"",
+			"text:",
+			"do not",
+			"dont ",
+			" dont",
+			"dont",
+			"dont ",
+			"dont",
+			" dont",
+			"dont",
+			"doesn",
+			"dont",
+			"i feel like such",
+			"orthodo",
+			"username i had an orthodo",
+			"username mate you",
+			"username mate",
+			"goodbye",
+			":)",
+			"the ",
+			"the",
+			" to ",
+			" i ",
+			"i ",
+			"goodbye",
+			"hate",
+			"username",
+			".",
+			"@",
+			"#",
+			"it's",
+			"tonyA",
+			"tonyabbot",
+			"tonya",
+			"#",
+			"http",
+			"||",
+			"|",
+			"happyy",
+			"news",
+			"listen",
+			"fact",
+			"hiring",
+			"hireing",
+			"hir",
+			"hireing",
+			"listen",
+			"job",
+			"news",
+			"job",
+			"jobs",
+			"news",
+			"job",
+			"jobs",
+			"job",
+			"last",
+			"lastfm",
+			"abcnews",
+			"#lastfm",
+			"#jobs",
+			"#rtw"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			",",
+			"||",
+			"do not ",
+			" do not",
+			"do not ",
+			" do not",
+			"#",
+			"||"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"jade",
+				"index.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

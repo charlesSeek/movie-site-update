@@ -1,0 +1,66 @@
+.container
+	.row
+		h3 #{title}	
+.navbar.navbar-default.navbar-fixed-top
+	.container
+		.navbar-header
+			a.navbar-brand(href="/") My Movie Website
+		if user
+			p.navbar-text.navbar-left
+				a.navbar-link(href="/admin/user/list") User List
+				span &nbsp;&nbsp;| &nbsp;&nbsp;
+				a.navbar-link(href="/admin/movie/list") Movie List
+				span &nbsp;&nbsp;|&nbsp;&nbsp;
+				a.navbar-link(href="/admin/category/list") Category List
+				span &nbsp;&nbsp;|&nbsp;&nbsp;
+				a.navbar-link(href="/admin/movie/new") Add Movie
+				span &nbsp;&nbsp;|&nbsp;&nbsp;
+				a.navbar-link(href="/admin/category") Add Category
+				span &nbsp;&nbsp;|&nbsp;&nbsp;
+			p.navbar-text.navbar-right
+				span welcome, #{user.name}
+				span &nbsp;|&nbsp;
+				a.navbar-link(href="/user/logout") Exit
+		else
+			p.navbar-text.navbar-left
+				a.navbar-link(href="/admin/user/list") User List
+				span &nbsp;&nbsp;&nbsp;&nbsp;
+				a.navbar-link(href="/admin/movie/list") Movie List
+				span &nbsp;&nbsp;&nbsp;&nbsp;
+				a.navbar-link(href="/admin/movie/new") Add Movie
+				span &nbsp;&nbsp;&nbsp;&nbsp;
+			p.navbar-text.navbar-right
+				a.navbar-link(href="#", data-toggle="modal",data-target="#signupModal") Register
+				span &nbsp;|&nbsp;
+				a.navbar-link(href="#", data-toggle="modal",data-target="#signinModal") Login in
+
+#signupModal.modal.fade
+	.modal-dialog
+		.modal-content
+			form(method="POST",action="/user/register")
+				.modal-header New User Register
+				.modal-body
+					.form-group
+						label(for="signupName") User Name
+						input#signupName.form-control(name="user[name]",type="text")
+					.form-group
+						label(for="signupPassword") User Password
+						input#signupPassword.form-control(name="user[password]",type="text")
+				.modal-footer
+					button.btn.btn-default(type="button",data-dismiss="modal") Close
+					button.btn.btn-success(type="submit") Submit
+#signinModal.modal.fade
+	.modal-dialog
+		.modal-content
+			form(method="POST",action="/user/login")
+				.modal-header User Login 
+				.modal-body
+					.form-group
+						label(for="signinName") User Name
+						input#signinName.form-control(name="user[name]",type="text")
+					.form-group
+						label(for="signinPassword") User Password
+						input#signinPassword.form-control(name="user[password]",type="text")
+				.modal-footer
+					button.btn.btn-default(type="button",data-dismiss="modal") Close
+					button.btn.btn-success(type="submit") Submit

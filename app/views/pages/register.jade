@@ -1,0 +1,20 @@
+extends ../layout
+block content
+	br
+	br
+	br
+	h2 #{title}
+	h5 The Fabulous Movie Site
+	.container
+		.col-md-5
+			form(method="POST",action="/user/register")
+				.modal-body
+					.form-group
+						label(for="signinName") User Name
+						input#signinName.form-control(name="user[name]",type="text")
+					.form-group
+						label(for="signinPassword") User Password
+						input#signinPassword.form-control(name="user[password]",type="text")
+				.modal-footer
+					button.btn.btn-default(type="button",data-dismiss="modal") Close
+					button.btn.btn-success(type="submit") Submit

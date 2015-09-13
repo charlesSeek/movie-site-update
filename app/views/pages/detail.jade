@@ -1,0 +1,52 @@
+extends ../layout
+block content
+	.container
+		.row
+			.col-md-7
+				embed(src="#{movie.flash}",allowFullScreen="true",quality="high",width="600",height="480", align="middle",type="application/x-shockwave-flash")
+				.panel
+					.panel-heading
+						h3 Comment History Area
+					.panel-body
+						ul.media-list
+							each item in comments
+								li.media
+									.media-body
+										a.comment(href="#comments",data-cid="#{item._id}",data-tid="#{item.from._id}")
+											h4 #{item.from.name}
+										p #{item.content}
+										if item.reply && item.reply.length >0
+											each reply in item.reply
+												a.comment(href="#comments",data-cid="#{item._id}",data-tid="#{reply.from._id}")
+													h4 
+														&nbsp;&nbsp;&nbsp;&nbsp; #{reply.from.name}
+														span.text-info &nbsp;reply&nbsp; 
+														| #{reply.to.name} :
+													p &nbsp;&nbsp;&nbsp;&nbsp; #{reply.content}
+				#comments
+					form(id='commentForm',method="POST",action="/user/comment")
+						input(type="hidden",name="comment[movie]",value="#{movie._id}")
+						if user
+							input(type="hidden",name="comment[from]",value="#{user._id}")
+						.form-group
+							textarea.form-control(name="comment[content]",row=3)
+						if user
+							button.btn.btn-primary(type="submit") Submit comment
+						else
+							a.navbar-link(href="#", data-toggle="modal",data-target="#signinModal") please login
+
+			.col-md-5
+				dl.dl-horizontal
+					dt Movie Name
+					dd #{movie.title}
+					dt Director
+					dd #{movie.director}
+					dt Country
+					dd #{movie.country}
+					dt Language
+					dd #{movie.language}
+					dt Show Year
+					dd #{movie.year}
+					dt Summary
+					dd #{movie.summary}
+	script(src="/js/detail.js")

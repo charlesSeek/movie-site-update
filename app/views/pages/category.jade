@@ -1,0 +1,15 @@
+extends ../layout
+block content
+	form.form-horizontal(method="POST",action="/admin/category/new")
+		.container
+			.row
+				.form-group
+					label.col-sm-2.control-label(for="inputCategory") Movie Category
+					.col-sm-10
+							input#inputCategory.form-control(type="text",name="category[name]", value=category.name)
+			.row.text-right
+				button.btn.btn-default(type="submit") Add New
+
+
+
+
